@@ -1,0 +1,33 @@
+body{
+    margin: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.card{
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #ffd9da;
+    color: #30343f;
+    border-top: 6px solid  #89023E;
+    border-bottom: 6px solid  #89023E;
+    border-left: 6px solid #EA638C;
+    border-right: 6px solid #EA638C;
+    border-radius: 3px;
+    box-shadow: #1b202171 1.95px 1.95px 2.6px;
+}
+
+/* profile picture */
+.avatar{
+  width: 120px;
+  order: 1;
+  box-shadow: #1b20213d 1.95px 1.95px 2.6px;
+}
+
+h3:hover, p:hover, h4:hover {
+    color: #8900f2;
+  }
+ 
